@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="surveycss.css" rel="stylesheet" type="text/css" />
+    <title>
+        Food Review Survey
+    </title>
+</head>
+<main>
+    <header>
+        <h1 id="title">
+            Food Review Survey
+        </h1>
+        <p id="description">
+            Purpose of this survey is to find user interactions with food review websites
+        </p>
+        <hr size="5px" />
+    </header>
+
+    <body>
+        <form id="survey-form">
+            <div id="section1">
+                <p>
+                    Personal info
+                </p>
+                <div id="name">
+                    Full name<br />
+                    <input id="name-label" type="text" name="name" required placeholder="Type name here" />
+                </div>
+                <div id="email">
+                    Email<br />
+                    <input id="email-label" type="email" name="email" required placeholder="Type email here" />
+                </div>
+                <div id="number">
+                    Age<br />
+                    <input id="num-label" type="number" name="age" required placeholder="Type age here" />
+                </div>
+                <div id="gender">
+                    Gender<br />
+                    <select id="dropdown">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="other">other</option>
+            </select>
+                </div>
+            </div>
+            <hr size="1px" />
+            <p class="center-text">
+                Survey
+            </p>
+            <div id="section2">
+                <div id="surveyitems">
+                    <div id="mostused">
+                        Your favorite food review website?<br />
+                        <input type="radio" name="site" value="yelp" />Yelp<br />
+                        <input type="radio" name="site" value="zomato" />Zomato<br />
+                        <input type="radio" name="site" value="OpenTable" />OpenTable<br />
+                        <input type="radio" name="site" value="zagat" />Zagat<br />
+                        <input type="radio" name="site" value="tripadvisor" />TripAdvisor<br />
+                        <input type="radio" name="site" value="other" />Other
+                    </div>
+                    <div id="imporatnce">
+                        What is your most important dining experience?<br />
+                        <input type="checkbox" name="experience8" value="taste" />Taste<br />
+                        <input type="checkbox" name="experience9" value="price" />Price<br />
+                        <input type="checkbox" name="experience1" value="foodquality" />Food Quality<br />
+                        <input type="checkbox" name="experience2" value="foodquantity" />Food Quantity<br />
+                        <input type="checkbox" name="experience3" value="cleanliness" />Restaurant Cleaniness<br />
+                        <input type="checkbox" name="experience4" value="service" />Quality of Service<br />
+                        <input type="checkbox" name="experience5" value="experience" />Experience<br />
+                        <input type="checkbox" name="experience6" value="typeof" />Type of Restaurant
+                        <br />
+                        <input type="checkbox" name="experience7" value="otherexperience" />Other <input type="text" />
+                    </div>
+                    <div id="trust">
+                        How much do you trust reviews from websites?<br>
+                        <p>0%<input type="range" min="0" max="100" value="30" id="trustslider">100%</p>
+                    </div>
+                    <div id="textarea">
+                        <textarea rows="10px" cols="40px" placeholder="Type in any addiional comments"></textarea>
+                    </div>
+                </div>
+                <hr>
+                <div id="buttons">
+                    <button type="submit" id="submit">Sumbmit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</main>
+
+</html>

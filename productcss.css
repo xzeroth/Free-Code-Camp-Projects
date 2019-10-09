@@ -1,0 +1,78 @@
+#header-img{
+    height: 1em;
+
+}
+
+body{
+    text-align: center;
+}
+
+
+h1{
+    position: fixed;
+    top: 0;
+    width: 100%
+    
+}
+
+#nav-link{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.coinfont{
+    font-size: 20px;
+    font-weight: bold;
+}
+.coinpic{
+
+    width: 1em;
+}
+#pricing{
+    display: flex;
+    justify-content: center;
+}
+
+.pricingbox{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    vertical-align: top;
+    align-items: flex;
+    border: 1px solid black;
+    padding: 10px 0;
+    width: calc(100%/4);
+}
+
+.pricingbox > .titlebox{
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    top: 0;
+    text-align: center;
+
+}
+
+ol,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pricingbox > ol > li{
+   padding: 15px;
+}
+
+
+
+
+#video{
+    margin-top: 100px;
+}

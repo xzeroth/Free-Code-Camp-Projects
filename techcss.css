@@ -1,0 +1,39 @@
+header{
+    font-size: 1.8em;
+    margin: 10px;
+    text-align: left;
+}
+
+main section p{
+    margin-left: 25px;
+}
+
+ul li{
+    margin-left: 30px;
+}
+
+#navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 280px;
+    border-right: solid;
+}
+
+#navbar ul{
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navbar li{
+    color: #4d4e53;
+    list-style: none;
+    width: 100%;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 305px;
+    margin-bottom: 200px;
+}

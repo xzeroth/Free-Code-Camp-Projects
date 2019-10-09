@@ -1,0 +1,42 @@
+html {
+    background-color: lightcyan;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: center;
+}
+
+#section1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#surveyitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#surveyitems>* {
+    margin-bottom: 1em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#trustslider {
+    width: 80%;
+    align-content: center;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
